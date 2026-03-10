@@ -1,125 +1,62 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-        <style>
-
-            body{
-                background-color:silver
-                
-            }
-            header{
-                background-color: black;
-                text-align: center;
-                padding: 10px;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-            }
-            h2{
-                color:white
-            }
-            section{
-                box-shadow: 0px 0px 10px;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            }
-            section.mertua{
-               background-color: rgb(221, 216, 216);
-            }
-            section.monstera{
-               background-color: rgba(243, 243, 243, 0.87);
-            }
-            a{
-                color: antiquewhite;
-                padding: 5px 10px;
-                text-decoration: none;
-            }
-            a:hover{
-                color: rgb(20, 20, 20);
-            }
-            img {
-                max-width: 100%;
-            }
-
-            .image-container {
-                 max-width: 100%; 
-                  width: 600px;
-            }
-
-            .white-fade::after {
-                 display: block;
-                 position: relative;
-                 background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-                 margin-top: -150px;
-                 height: 150px;
-                 width: 100%;
-                 content: '';
-            }
-
-            .box-shadow {
-                 border-radius: 5px;
-                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-            }
-            img {
-                width: 300px;
-            }
-            a#backtotop{
-                color: black;
-            }
-        </style>
-
+        <title>Biotek</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     </head>
     <body>
         <header>
-            <h2>TANAMAN HIAS</h2>
-            <section id="backtotop">
+            <div class="banner">
+                <img src="Gemini_Generated_Image_pr3uv8pr3uv8pr3u-removebg-preview.png">
+            </div> 
             <nav>
-                <a href="#mer">Lidah Mertua</a>
-                <a href="#mon">Monstera</a>
-                <a href="#kup">Kuping Gajah</a>
-                <a href="#phi">Philodendron</a>
-                <a href="#lil">Lili Paris</a>
-                <a href="#rom">Rombusa Mini</a>
-            </nav>
-            </section>
+                <a href="#home"><i class="material-icons">home</i> HOME</a>
+                <a href="#about"><i class="material-icons">work</i> ABOUT</a>
+                <a href="#profile"><i class="material-icons">person</i> PROFILE</a>
+</nav>
         </header>
-        <section class="mertua" id="mer">
-            <h3>Lidah Mertua</h3>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEO838uYDuPPLZ4-9-5rniYhJdy5T7z4Mtxw&s">
-            <p>Lidah mertua adalah jenis tanaman hias daun yang memiliki ciri daun menyempit di pangkalnya dan meruncing di ujungnya.
-            Tanaman hias ini biasanya punya beberapa jenis warna yang, yaitu hijau tua, hijau muda, hijau keabu-abuan, dan hijau kekuningan.
-            Merawat tanaman lidah mertua cukup mudah. Soalnya, tanaman ini mudah beradaptasi karena bisa menyimpan cadangan air dalam jumlah besar.</p>
-             <a href="#backtotop" id="backtotop">BACK TO TOP</a>
-        </section>
-        <section class="monstera" id="mon">
-            <h3>Monstera</h3>
-            <img src="https://florastore.com/cdn/shop/files/1711701_Atmosphere_04_SQ_MJ.jpg?v=1755163489&width=1080">
-            <p>Siapa yang tidak mengenal tanaman monstera Ya, ini salah satu tanaman yang sangat populer saat ini.
-             Monstera memiliki ciri daun tebal berwarna hijau dengan bolongan besar di daun-daunnya. Tanaman monstera biasanya cocok diletakkan di teras rumah, yang tidak langsung terpapar sinar matahari.
-             Hindari meletakkannya dekat paparan sinar matahari langsung karena cahaya berlebihan akan membuat daunnya menjadi kekuningan.</p>
-              <a href="#backtotop" id="backtotop">BACK TO TOP</a>
-        </section>
-         <section class="kupinggajah" id="kup">
-            <h3>Monstera</h3>
-            <img src="https://threebouquets.com/cdn/shop/articles/ketahui-5-manfaat-tanaman-hias-kuping-gajah-bagi-kesehatan-855643.jpg?v=1631603936">
-            <p>Kuping Gajah memiliki daun berukuran besar dan berbentuk hati. Tanaman kuping gajah memerlukan tanah yang lembab dan bernutrisi untuk tumbuh sehingga kamu harus secara teratur merawat jenis tanaman ini.</p>
-             <a href="#backtotop" id="backtotop">BACK TO TOP</a>
-         <section class="philodendron" id="phi">
-            <h3>Philodendron</h3>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTay1xWLxvlp0u966i4BR8s9qIzGv8WT5rrHd_IDnyqZyeKrO4mcAdIpElF0xNiGSKz9LUOPl8OKIuHr_TmYKoMQ1QeYJIaeyz6f8r4eHXe8g&s=10">
-            <p>Philodendron adalah tanaman hias yang memiliki ciri daun hijau berbentuk hati. Bentuknya yang unik ini, membuatnya menjadi favorit banyak orang.
-            Selain itu, kamu juga bisa menempatkan philodendron di mana pun karena ia tidak membutuhkan sinar matahari yang berlebihan.</p>
-             <a href="#backtotop" id="backtotop">BACK TO TOP</a>
-         <section class="liliparis" id="lil">
-            <h3>Lili Paris</h3>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Nh0hMHzmNEGUsicxdKGpi9tWjAMHU40deDarduynPVqtkXnqLWjhN_Kv9AkJF73J5ucrTh6rdDFXGe34rTPRMlM7058SGRT0ZR6AdI-k&s=10">
-            <p>Dengan daunnya yang berbentuk pita memanjang dan tipis, lili paris mendapatkan julukan tanaman bulu ayam.
-            Tidak seperti namanya, ternyata lili paris ini berasal dari Afrika Selatan. Warna daunnya yang terang dengan aksen hijau di pinggirnya, membuat lili paris paling digemari sebagai tanaman hias.</p>
-            <a href="#backtotop" id="backtotop">BACK TO TOP</a>
-         <section class="rombusamini" id="rom">
-            <h3>Rombusa Mini</h3>
-            <img src="data:image/jpeg;base64,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">
-            <p>Rombusa mini adalah tanaman perdu semak dengan daun yang sangat rimbun. Tanaman ini, punya beberapa jenis warna yang, antara lain hijau, kuning dan silver.
-            Bunganya yang berwarna putih menambah penampilan cantiknya dan membuatnya cocok diletakkan di halaman dan teras rumah.</p>
-               <a href="#backtotop" id="backtotop">BACK TO TOP</a>
+        <section class="home" id="home">
+            <div class="kotakbiotek">
+                <h1 class="namabiotek">
+                    WELCOME
+                </h1>
+                <div class="deskbiotek">
+                    Website ini berisi informasi mengenai proses fermentasi pada pembuatan roti serta penelitian sederhana yang dilakukan untuk mengamati proses tersebut. Melalui halaman yang tersedia, pengunjung dapat mengetahui gambaran umum mengenai topik yang dibahas serta profil pembuat website. Informasi yang disajikan bertujuan untuk memberikan pemahaman tentang fermentasi sebagai salah satu contoh penerapan bioteknologi dalam kehidupan sehari-hari, khususnya dalam pembuatan roti, sehingga pembaca dapat mengenal prosesnya secara lebih jelas dan mudah dipahami.
+                </div>
+                <a href="#about" class="learnmore">Learn More</a>
+            </div>
+         </section>
+        <section class="about" id="about">
+            <div class="deskprojek">
+                <h1>My Project</h1>
+                <p>Pembuatan roti tawar merupakan salah satu contoh penerapan bioteknologi konvensional dalam kehidupan sehari-hari. Proses ini memanfaatkan bantuan mikroorganisme berupa ragi, khususnya <i>Saccharomyces cerevisiae</i>, yang berperan dalam proses fermentasi. Pada proses tersebut, ragi akan mengubah gula yang terdapat dalam adonan menjadi gas karbon dioksida dan sedikit alkohol. Gas karbon dioksida inilah yang menyebabkan adonan roti mengembang sehingga menghasilkan tekstur roti yang lembut dan berpori.</p>
 
+                <p>Proses pembuatan roti tawar dilakukan melalui beberapa tahapan penting, dimulai dari persiapan bahan dan alat, pencampuran bahan, pengulenan adonan, proses fermentasi, pembentukan adonan, hingga proses pemanggangan. Setiap tahapan memiliki peran penting dalam menentukan kualitas roti yang dihasilkan, baik dari segi tekstur, rasa, maupun aroma. Proses fermentasi yang berlangsung dengan baik akan menghasilkan adonan yang mengembang dengan sempurna sehingga roti yang dihasilkan memiliki tekstur yang lembut dan cita rasa yang khas.</p>
+
+                <p>Melalui proses ini dapat dipahami bahwa mikroorganisme memiliki peran yang sangat penting dalam membantu proses produksi makanan. Pemanfaatan ragi dalam pembuatan roti menunjukkan bagaimana bioteknologi konvensional dapat diterapkan secara sederhana namun memberikan manfaat yang besar bagi kehidupan manusia. Dengan memahami proses tersebut, diharapkan dapat menambah pengetahuan mengenai pemanfaatan bioteknologi dalam bidang pangan serta meningkatkan pemahaman mengenai peran mikroorganisme dalam kehidupan sehari-hari.
+                </p>
+            </div>
+        </section>
+        <section class="profile" id="profile">
+             <div class="cardProfile">
+                <h2>Profile</h2>
+                <h3>Steffan Alexander Halim</h3>
+                <p>
+                    SMP Santa Angela
+                </p>
+                <p>
+                    9B/28
+                </p>
+                
+                <div class = "medsos">
+                    <a href="https://www.instagram.com/steffanalexanderr" target="_blank">
+    <i class="fa fa-instagram"></i>
+                </div>
+</a>
+            </div>
+        </section>
     </body>
 </html>
